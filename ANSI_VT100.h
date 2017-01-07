@@ -7,5 +7,5 @@
 
 const uint8_t  CURSOR_IZQUIERDA[] = {ESC,'[','1','D'};
 const uint8_t  CURSOR_DERECHA  []	= {ESC,'[','C'};
-
+const uint8_t  LIMPIAR_PANTALLA[]	= {ESC,'[','2','J'};
 #endif
