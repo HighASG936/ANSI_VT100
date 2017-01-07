@@ -7,8 +7,5 @@
 
 const uint8_t  CURSOR_IZQUIERDA[] = {ESC,'[','1','D'};
 const uint8_t  CURSOR_DERECHA  []	= {ESC,'[','C'};
-const uint8_t	 HEADER[] = {
-	" Comunicación Serial printf (Viwer) \r\n  Version 0.01 \r\n Autor: Aurelio Siordia González \r\n\n"
-													};
 
 #endif
